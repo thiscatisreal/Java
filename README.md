@@ -145,7 +145,7 @@ Java
 
 ***
 
-# 4.클래스와 객체
+# 4. 클래스와 객체
 ## 객체 지향 프로그래밍이란
     객체를 정의하고 객체 간 협력을 프로그래밍하는 것
 ## 클래스란
@@ -241,3 +241,8 @@ ex) 학생이 버스와 지하철을 이용하는 과정을 구현
             }
     }
 ### 객체 배열 사용
+    Book[] library = new Book[5];
+    
+    for(int i=0; i<library.length; i++){
+        System.out.println(library[i]);
+    }
