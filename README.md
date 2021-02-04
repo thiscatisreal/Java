@@ -227,3 +227,17 @@ ex) 학생이 버스와 지하철을 이용하는 과정을 구현
 ***
 
 # 5. 배열과 리스트
+## 배열
+    자료형[] 배열 이름 = new 자료형[개수];
+    자료형 배열 이름[] = new 자료형[개수];
+### 문자 저장 배열 선언
+    public class CharArray {
+        public static void main(String[] args) {
+            char[] alphabets = new char[26];
+            char ch = 'A';
+            
+            for(int i=0; i<alphabets.length; i++, ch++) {
+                alphabets[i] = ch;      //아스키 값으로 각 요소에 저장
+            }
+    }
+### 객체 배열 사용
